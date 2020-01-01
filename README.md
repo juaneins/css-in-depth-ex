@@ -16,3 +16,7 @@ When declarations conflict, the cascade considers three things to resolve the di
         -If that results in a tie, the selector with the most tag names wins. 
         A NOTATION FOR SPECIFICITY: id's, class, tags
         ex: 1,2,2: 1 id, 2 clases, 2 tags
+
+It is generally best to keep specificity low when you can, so when you need to override something, your options are open.        
+
+3 Understanding source order
