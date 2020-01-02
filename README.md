@@ -19,4 +19,12 @@ When declarations conflict, the cascade considers three things to resolve the di
 
 It is generally best to keep specificity low when you can, so when you need to override something, your options are open.        
 
-3 Understanding source order
+3 source order, toma el último estilo aplicado
+
+CASCADED VALUES
+The browser follows these three steps—origin, specificity, and source order to resolve every property for every element on the page. A declaration that “wins” the cascade is called a cascaded value.
+
+Two rules of thumb
+
+1. Don’t use IDs in your selector
+2. Don’t use !important.
