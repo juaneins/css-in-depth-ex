@@ -1,45 +1,11 @@
-/* h1 {                           
-  font-family: serif;
+body {
+    font-family: sans-serif;
 }
-
-#page-title {                   
-  font-family: sans-serif;
-}
-
-.title {                        
-  font-family: monospace;
-} */
 
 h1 {
   color: #2f4f4f;
   margin-bottom: 10px;
 }
-
-/* #main-nav {
-  margin-top: 10px;
-  list-style: none;
-  padding-left: 0;
-}
-
-#main-nav li {
-  display: inline-block;
-}
-
-#main-nav a {
-  color: white;
-  background-color: #13a4a4;
-  padding: 5px;
-  border-radius: 2px;
-  text-decoration: none;
-} /*specificity: 1,0,1*/
-
-/* .featured {
-  background-color: orange;
-}  */ /*specificity: 0,1,0*/
-/*
-#main-nav .featured {
-  background-color: orange;
-} */ /*specificity: 1,1,0*/
 
 .nav {
   margin-top: 10px;
@@ -54,23 +20,25 @@ h1 {
 .nav a {
   color: white;
   background-color: #13a4a4;
-  padding: 5px;
+  padding: 5px 15px;
   border-radius: 2px;
   text-decoration: none;
-} /*specificity: 0,1,1*/
+}
 
-/* .nav .featured {
-   background-color: orange;
-}  */ /*specificity: 0,2,0*/
+/* .title {
+    font-family: monospace;
+} */
 
-a.featured {
+.nav .featured {
   background-color: orange;
-} /*specificity: 0,1,1*/
+  box-shadow: 10px 2px #6f9090;
+}
 
 a:link {
   color: blue;
   text-decoration: none;
 }
+
 a:visited {
   color: purple;
 }
@@ -79,4 +47,17 @@ a:hover {
 }
 a:active {
   color: red;
+}
+
+.footer {
+    color: #666;
+    background-color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: initial;
+    text-decoration: underline;
 }

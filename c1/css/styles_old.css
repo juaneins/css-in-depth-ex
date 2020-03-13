@@ -1,0 +1,85 @@
+body {
+font-family: sans-serif;
+}
+/* h1 {                           
+  font-family: serif;
+}
+
+#page-title {                   
+  font-family: sans-serif;
+}
+
+.title {                        
+  font-family: monospace;
+} */
+
+h1 {
+  color: #2f4f4f;
+  margin-bottom: 10px;
+}
+
+/* #main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+#main-nav li {
+  display: inline-block;
+}
+
+#main-nav a {
+  color: white;
+  background-color: #13a4a4;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+} /*specificity: 1,0,1*/
+
+/* .featured {
+  background-color: orange;
+}  */ /*specificity: 0,1,0*/
+/*
+#main-nav .featured {
+  background-color: orange;
+} */ /*specificity: 1,1,0*/
+
+.nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: white;
+  background-color: #13a4a4;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+} /*specificity: 0,1,1*/
+
+/* .nav .featured {
+   background-color: orange;
+}  */ /*specificity: 0,2,0*/
+
+a.featured {
+  background-color: orange;
+} /*specificity: 0,1,1*/
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
