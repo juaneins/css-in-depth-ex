@@ -28,3 +28,7 @@ Two rules of thumb
 
 1. Don’t use IDs in your selector
 2. Don’t use !important.
+
+------------
+TIP When in doubt, use rems for font size, pixels for borders, and ems for
+most other properties.

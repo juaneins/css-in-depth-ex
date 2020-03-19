@@ -1,0 +1,15 @@
+/* body {
+    font-size: 16px;
+}
+
+ul {
+    font-size: .8em;
+} */
+
+:root {
+    font-size: 1em;
+}
+
+ul {
+    font-size: 0.8rem;
+}
