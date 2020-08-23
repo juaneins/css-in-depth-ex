@@ -1,4 +1,6 @@
 .padded {
     font-size: 16px;
-    padding: 1em;
+    padding: 2em;
+    border-color: black ;
+    border-style: dashed;
 }

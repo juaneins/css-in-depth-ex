@@ -60,13 +60,28 @@ Summary
 * Don’t confuse initial and auto values.
 * Stay out of TRouBLe with shorthand properties.
 
-------------
+------------ Ch2 -----------------------
+
+1 in. = 25.4 mm = 2.54 cm = 6 pc = 72pt = 96 px
+Therefore, 16 px is the same as 12 pt (16 / 96 × 72)
+
+Using ems can be convenient when setting properties like padding , height , width ,
+or border-radius because these will scale evenly with the element if it inherits differ-
+ent font sizes, or if the user changes the font settings.
+
 TIP If you know the pixel-based font size you’d like, but want to specify the
 declaration in ems, here’s a simple formula: divide the desired pixel size by
 the parent (inherited) pixel size. For example, if you want a 10 px font and
 your element is inheriting a 12 px font, 10 / 12 = 0.8333 em. If you want a 16
 px font and the parent font is 12 px, 16 / 12 = 1.3333 em. We’ll do this calcu-
 lation several times throughout this chapter.
+
+It’s helpful to know that, for most browsers, the default font size is 16 px. Technically,
+it’s the keyword value medium that calculates to 16 px.
+
+The root node is the ancestor of all other elements in the document. It has a spe-
+cial pseudo-class selector ( :root ) that you can use to target it. This is equivalent to
+using the type selector html with the specificity of a class rather than a tag.
 
 TIP When in doubt, use rems for font size, pixels for borders, and ems for
 most other properties.
