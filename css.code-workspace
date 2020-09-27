@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"open-in-browser.default": "firefox"
+		"open-in-browser.default": "firefox",
+		"editor.renameOnType": true
 	}
 }
