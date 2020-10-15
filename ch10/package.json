@@ -1,0 +1,13 @@
+{
+  "name": "pattern-library",
+  "version": "1.0.0",
+  "description": "Create a pattern library (also called guide styles)",
+  "main": "index.js",
+  "scripts": {
+    "build": "kss --config kss-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "java warrior",
+  "license": "ISC"
+}
