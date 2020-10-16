@@ -1,0 +1,9 @@
+.blend {
+    min-height: 400px;
+    /* background-image: url(../img/bear.jpg), url(../img/bear.jpg); */
+    background-image: url(../img/scratches.png), url(../img/bear.jpg);    
+    background-size: 200px, cover;
+    background-repeat: repeat, no-repeat;
+    background-position: center,center;
+    background-blend-mode: soft-light;
+}
