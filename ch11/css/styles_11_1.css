@@ -1,0 +1,13 @@
+.fade {
+    margin:2em;
+    /* height: 200px; */
+    height:1em;
+    width: 400px;
+    /* background-image: linear-gradient(to right, white, blue); */
+    /* background-image: linear-gradient(90deg, white, blue); */
+    /* background-image: linear-gradient(90deg, pink, red, aquamarine, white, blue); */
+    /* background-image: linear-gradient(90deg, pink 0%, red 10%, aquamarine 40%, white 65%, blue 100%); */
+    /* background-image: linear-gradient(90deg, red 40%,  white 40%, white 60%, blue 60%); */
+    background-image: repeating-linear-gradient(45deg, #57b, #57b 10px, #148 10px, #148 20px);
+    border-radius:0.3em;
+}
