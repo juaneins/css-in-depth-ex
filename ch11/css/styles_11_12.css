@@ -1,0 +1,10 @@
+.blend {
+    min-height: 400px;
+    /* background-image: url(../img/bear.jpg), url(../img/bear.jpg); */
+    background-image: url(../img/bear.jpg);
+    background-color: #148;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+}
