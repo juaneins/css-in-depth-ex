@@ -1,0 +1,14 @@
+.fade {
+    margin:2em;
+    height: 200px;
+    width: 400px;
+    border-radius:0.3em;
+    /* background-image: radial-gradient(white,blue); 
+    background-image: radial-gradient(circle, white,midnightblue);*/
+    /* background-image: radial-gradient(5em at 25% 25%, white,midnightblue); */
+    /* background-image: radial-gradient(circle, midnightblue 0%, white 75%,rgb(192, 237, 255)); */
+     background-image: repeating-radial-gradient(circle, midnightblue 0, 
+     midnightblue 1em,white 1em, green 2em); 
+    
+
+}
