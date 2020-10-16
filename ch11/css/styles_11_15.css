@@ -1,9 +1,26 @@
-.blend {
-    min-height: 400px;
-    /* background-image: url(../img/bear.jpg), url(../img/bear.jpg); */
+/* .blend {
+    min-height: 400px;   
     background-image: url(../img/scratches.png), url(../img/bear.jpg);    
     background-size: 200px, cover;
     background-repeat: repeat, no-repeat;
     background-position: center,center;
     background-blend-mode: soft-light;
+} */
+.blend {
+  background-image: url("../img/bear.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 5em 0 10em;
+}
+
+.blend > h1 {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    mix-blend-mode: hard-light;
+    background-color: rgba(54, 50, 107, 0.295);
+    color: #808080;
+    border: 0.1em solid #ccc;
+    border-width: 0.1em 0;
 }
