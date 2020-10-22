@@ -1,5 +1,5 @@
 html {
-  --brand-green: #076448;
+  /* --brand-green: #076448;
   --brand-green: #076448;
   --dark-green: #099268;
   --medium-green: #20c997;
@@ -7,7 +7,16 @@ html {
   --gray: #868e96;
   --light-gray: #f1f3f5;
   --extra-light-gray: #f8f9fa;
-  --white: #fff;
+  --white: #fff; */
+  --brand-green: hsl(162, 87%, 21%);
+--dark-green: hsl(162, 88%, 30%);
+--medium-green: hsl(162, 73%, 46%);
+--text-color: hsl(210, 11%, 15%);
+--gray: hsl(210, 7%, 56%);
+--light-gray: hsl(210, 17%, 95%);
+--extra-light-gray: hsl(210, 17%, 98%);
+--white: hsl(0, 0%, 100%);
+--red:hsl(342,63%,46%);
 
   box-sizing: border-box;
   color: var(--text-color);
@@ -30,6 +39,11 @@ h1, h2, h3, h4 {
     font-family: Georgia, serif;
 }
 
+p {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
 a {
     color: var(--medium-green);
 }
@@ -40,7 +54,7 @@ a:hover {
     color:var(--brand-green);
 }
 a:active {
-
+    color:var(--red);
 }
 
 .nav-container {
@@ -52,6 +66,8 @@ a:active {
     justify-content: space-between;
     max-width: 1080px;
     margin: 0 auto;
+    /*10px/16 = 0.625em*/
+    padding:0.625em;
 }
 
 .home-link {
@@ -65,8 +81,13 @@ a:active {
 .top-nav {
     display:flex;
     list-style-type:none;
-
+    margin:0;
 }
+
+.top-nav > li + li {
+    /* padding-left: 0.625em;*/
+    margin-left:0.625em;
+} 
 
 .top-nav a {
     display:block;
@@ -92,15 +113,20 @@ a:active {
     margin-bottom: 2.5rem;
 }
 
-.hero_inner {
+.hero__inner {
     max-width: 1080px;
     margin: 0 auto;
-    padding:50px 0 200px;
+    /* padding:50px 0 200px; 
+    89/16=5.5625em
+    10/16=0.625em*/
+    padding: 5.5625em 12.5em 12.5em 0;
     text-align: right;
 }
 
 .hero h2 {
     font-size: 1.95rem;
+    margin-top: 1.95rem;
+    margin-bottom: 0.625em;
 }
 
 .button {
@@ -138,9 +164,19 @@ a:active {
     flex:1;
 }
 
+.tile-row > * + * {
+    /*25/16*/
+    margin-left: 1.5625em;
+}
+
 .tile {
     background-color:var(--white);
     border-radius:0.3em;
+    padding:1.5625em;
+}
+
+.tile > h4 {
+    margin-bottom: 1.5em;
 }
 
 .page-footer {
@@ -155,6 +191,20 @@ a:active {
     max-width: 1080px;
     text-align: center;
     font-size:0.8rem;
+}
+
+.tag-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tag-list > li {
+    display: inline;
+    padding:0.3rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    background-color: var(--light-gray);
+    line-height: 2.6;
 }
 
 
