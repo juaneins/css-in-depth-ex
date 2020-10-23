@@ -102,6 +102,11 @@ a:active {
     background-color: var(--dark-green);
 }
 
+.top-nav__featured > a {
+    color: var(--brand-green);
+    background-color: var(--white);
+  }
+
 .top-nav__featured > a:hover {
     color:var(--medium-green);
     background-color: var(--white);
