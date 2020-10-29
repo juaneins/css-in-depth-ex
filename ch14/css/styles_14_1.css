@@ -30,7 +30,13 @@ button:hover {
   /* transition: all 1s linear; */
   transition-property: all;
   transition-duration: 1s;
-  transition-timing-function: ease-in-out;
+  /* transition-timing-function: ease-in-out; */
+  transition-timing-function: steps(3);
+}
+
+.box--1 { 
+  background-color: hsl(100, 40%, 40%);
+  transition-timing-function: steps(3, start);
 }
 
 .container:hover .box {
